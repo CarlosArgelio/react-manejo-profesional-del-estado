@@ -53,7 +53,7 @@ class ClassState extends Component {
 
 
                 <input  
-                    placeholder='Codeigo de seguridad'
+                    placeholder='Codigo de seguridad'
                     value={this.state.value}
                     onChange={(e) => {
                         this.setState({ value: e.target.value });
